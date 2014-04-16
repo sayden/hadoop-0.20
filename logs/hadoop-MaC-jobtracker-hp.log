@@ -1,0 +1,90 @@
+2014-04-16 13:34:30,790 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = hp/127.0.0.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.205.0
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-security-205 -r 1179940; compiled by 'hortonfo' on Fri Oct  7 06:26:14 UTC 2011
+************************************************************/
+2014-04-16 13:34:30,900 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-04-16 13:34:30,910 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-04-16 13:34:30,911 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-04-16 13:34:30,911 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: JobTracker metrics system started
+2014-04-16 13:34:31,033 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source QueueMetrics,q=default registered.
+2014-04-16 13:34:31,206 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-04-16 13:34:31,207 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2014-04-16 13:34:31,208 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2014-04-16 13:34:31,210 INFO org.apache.hadoop.mapred.JobTracker: Scheduler configured with (memSizeForMapSlotOnJT, memSizeForReduceSlotOnJT, limitMaxMemForMapTasks, limitMaxMemForReduceTasks) (-1, -1, -1, -1)
+2014-04-16 13:34:31,211 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2014-04-16 13:34:31,219 INFO org.apache.hadoop.mapred.JobTracker: Starting jobtracker with owner as MaC
+2014-04-16 13:34:31,220 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+2014-04-16 13:34:31,220 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2014-04-16 13:34:31,239 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-04-16 13:34:31,241 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort54311 registered.
+2014-04-16 13:34:31,242 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort54311 registered.
+2014-04-16 13:34:31,320 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-16 13:34:31,407 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-04-16 13:34:31,442 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-16 13:34:31,444 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50030
+2014-04-16 13:34:31,447 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50030 webServer.getConnectors()[0].getLocalPort() returned 50030
+2014-04-16 13:34:31,447 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50030
+2014-04-16 13:34:31,448 INFO org.mortbay.log: jetty-6.1.26
+2014-04-16 13:34:31,954 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50030
+2014-04-16 13:34:31,960 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-04-16 13:34:31,960 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source JobTrackerMetrics registered.
+2014-04-16 13:34:31,961 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 54311
+2014-04-16 13:34:31,961 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2014-04-16 13:34:32,101 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2014-04-16 13:34:32,241 INFO org.apache.hadoop.mapred.JobHistory: Creating DONE folder at file:/var/hadoop/logs/history/done
+2014-04-16 13:34:32,244 INFO org.apache.hadoop.mapred.JobTracker: History server being initialized in embedded mode
+2014-04-16 13:34:32,248 INFO org.apache.hadoop.mapred.JobHistoryServer: Started job history server at: localhost:50030
+2014-04-16 13:34:32,248 INFO org.apache.hadoop.mapred.JobTracker: Job History Server web address: localhost:50030
+2014-04-16 13:34:32,255 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Completed job store is inactive
+2014-04-16 13:34:32,489 INFO org.apache.hadoop.mapred.JobTracker: Refreshing hosts information
+2014-04-16 13:34:32,523 INFO org.apache.hadoop.util.HostsFileReader: Setting the includes file to 
+2014-04-16 13:34:32,523 INFO org.apache.hadoop.util.HostsFileReader: Setting the excludes file to 
+2014-04-16 13:34:32,523 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2014-04-16 13:34:32,523 INFO org.apache.hadoop.mapred.JobTracker: Decommissioning 0 nodes
+2014-04-16 13:34:32,524 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-04-16 13:34:32,525 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 54311: starting
+2014-04-16 13:34:32,533 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54311: starting
+2014-04-16 13:34:32,534 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 54311: starting
+2014-04-16 13:34:32,534 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 54311: starting
+2014-04-16 13:34:32,534 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 54311: starting
+2014-04-16 13:34:32,535 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54311: starting
+2014-04-16 13:34:32,535 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 54311: starting
+2014-04-16 13:34:32,535 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 54311: starting
+2014-04-16 13:34:32,535 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 54311: starting
+2014-04-16 13:34:32,553 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 54311: starting
+2014-04-16 13:34:32,556 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2014-04-16 13:34:32,557 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 54311: starting
+2014-04-16 13:34:33,334 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/localhost.localdomain
+2014-04-16 13:34:33,336 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_localhost.localdomain:localhost.localdomain/127.0.0.1:57219 to host localhost.localdomain
+2014-04-16 13:36:00,745 INFO org.apache.hadoop.mapred.JobInProgress: job_201404161334_0001: nMaps=1 nReduces=1 max=-1
+2014-04-16 13:36:00,747 INFO org.apache.hadoop.mapred.JobTracker: Job job_201404161334_0001 added successfully for user 'MaC' to queue 'default'
+2014-04-16 13:36:00,748 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201404161334_0001
+2014-04-16 13:36:00,748 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201404161334_0001
+2014-04-16 13:36:00,749 INFO org.apache.hadoop.mapred.AuditLogger: USER=MaC	IP=127.0.0.1	OPERATION=SUBMIT_JOB	TARGET=job_201404161334_0001	RESULT=SUCCESS
+2014-04-16 13:36:01,051 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /var/hadoop/hdfs/mapred/system/job_201404161334_0001/jobToken
+2014-04-16 13:36:01,062 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201404161334_0001 = 1573150. Number of splits = 1
+2014-04-16 13:36:01,062 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201404161334_0001_m_000000 has split on node:/default-rack/localhost.localdomain
+2014-04-16 13:36:01,063 INFO org.apache.hadoop.mapred.JobInProgress: job_201404161334_0001 LOCALITY_WAIT_FACTOR=1.0
+2014-04-16 13:36:01,063 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201404161334_0001 initialized successfully with 1 map tasks and 1 reduce tasks.
+2014-04-16 13:36:03,536 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201404161334_0001_m_000002_0' to tip task_201404161334_0001_m_000002, for tracker 'tracker_localhost.localdomain:localhost.localdomain/127.0.0.1:57219'
+2014-04-16 13:36:09,596 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201404161334_0001_m_000002_0' has completed task_201404161334_0001_m_000002 successfully.
+2014-04-16 13:36:09,604 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201404161334_0001_m_000000_0' to tip task_201404161334_0001_m_000000, for tracker 'tracker_localhost.localdomain:localhost.localdomain/127.0.0.1:57219'
+2014-04-16 13:36:09,606 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201404161334_0001_m_000000
+2014-04-16 13:36:15,625 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201404161334_0001_m_000000_0' has completed task_201404161334_0001_m_000000 successfully.
+2014-04-16 13:36:15,638 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201404161334_0001_r_000000_0' to tip task_201404161334_0001_r_000000, for tracker 'tracker_localhost.localdomain:localhost.localdomain/127.0.0.1:57219'
+2014-04-16 13:36:27,677 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201404161334_0001_r_000000_0' has completed task_201404161334_0001_r_000000 successfully.
+2014-04-16 13:36:27,687 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201404161334_0001_m_000001_0' to tip task_201404161334_0001_m_000001, for tracker 'tracker_localhost.localdomain:localhost.localdomain/127.0.0.1:57219'
+2014-04-16 13:36:33,702 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201404161334_0001_m_000001_0' has completed task_201404161334_0001_m_000001 successfully.
+2014-04-16 13:36:33,704 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201404161334_0001 has completed successfully.
+2014-04-16 13:36:33,709 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201404161334_0001,submitTime=1397648160697,launchTime=1397648161063,firstMapTaskLaunchTime=1397648169604,firstReduceTaskLaunchTime=1397648175630,firstJobSetupTaskLaunchTime=1397648163509,firstJobCleanupTaskLaunchTime=1397648187687,finishTime=1397648193704,numMaps=1,numSlotsPerMap=1,numReduces=1,numSlotsPerReduce=1,user=MaC,queue=default,status=SUCCEEDED,mapSlotSeconds=12,reduceSlotsSeconds=10,clusterMapCapacity=2,clusterReduceCapacity=2
+2014-04-16 13:36:33,768 INFO org.apache.hadoop.mapred.JobHistory: Creating DONE subfolder at file:/var/hadoop/logs/history/done/version-1/hp_1397648071255_/2014/04/16/000000
+2014-04-16 13:36:33,769 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/var/hadoop/logs/history/job_201404161334_0001_1397648160697_MaC_word+count to file:/var/hadoop/logs/history/done/version-1/hp_1397648071255_/2014/04/16/000000
+2014-04-16 13:36:33,772 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201404161334_0001_m_000000_0'
+2014-04-16 13:36:33,772 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201404161334_0001_m_000001_0'
+2014-04-16 13:36:33,773 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201404161334_0001_m_000002_0'
+2014-04-16 13:36:33,773 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201404161334_0001_r_000000_0'
+2014-04-16 13:36:33,780 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/var/hadoop/logs/history/job_201404161334_0001_conf.xml to file:/var/hadoop/logs/history/done/version-1/hp_1397648071255_/2014/04/16/000000
