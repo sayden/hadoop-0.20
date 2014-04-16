@@ -7,7 +7,7 @@
 
 # The java implementation to use.  Required.
 # export JAVA_HOME=/usr/lib/j2sdk1.5-sun
-export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk
+
 # Extra Java CLASSPATH elements.  Optional.
 # export HADOOP_CLASSPATH=
 
@@ -53,3 +53,6 @@ export HADOOP_JOBTRACKER_OPTS="-Dcom.sun.management.jmxremote $HADOOP_JOBTRACKER
 # The scheduling priority for daemon processes.  See 'man nice'.
 # export HADOOP_NICENESS=10
 export HADOOP_OPTS=-Djava.net.preferIPv4Stack=true
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk
+export HADOOP_INSTALL=/var/hadoop
+export PATH=$PATH:$HADOOP_INSTALL/bin:$HADOOP_INSTALL/sbin
