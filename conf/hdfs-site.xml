@@ -12,5 +12,9 @@
 <property>
     <name>dfs.permissions</name>
     <value>false</value>
-  </property>
+</property>
+<property>
+<name>mapred.child.java.opts</name>
+<value>-Xmx3072m</value>
+</property>
 </configuration>

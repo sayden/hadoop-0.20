@@ -56,3 +56,4 @@ export HADOOP_OPTS=-Djava.net.preferIPv4Stack=true
 export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk
 export HADOOP_INSTALL=/var/hadoop
 export PATH=$PATH:$HADOOP_INSTALL/bin:$HADOOP_INSTALL/sbin
+export HADOOP_PREFIX=/var/hadoop
