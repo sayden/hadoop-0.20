@@ -2,8 +2,9 @@
 
 STARTTIME=$(date +%s)
 
+echo ''
+
 if [ $# -eq 0 ]; then
-	echo ''
 	echo 'Not enough arguments. Usage:'
 	echo '	timer action [params...]'
 	echo '		sa: aka "sbin/start-all.sh"'
@@ -24,9 +25,11 @@ if [ $# -eq 0 ]; then
 
 else 
 	case $1 in
-		cl) rm -rf logs/*
+		cl) echo 'Deleting logs folder'
+			rm -rf logs/*
 			;;
-		ch) rm -rf hdfs/*
+		ch) echo 'Deleting hdfs folder contents' 
+			rm -rf hdfs/*
 			;;
 		cf) if [ $# eq 2 ]; then
 			rm -rf $2
@@ -60,17 +63,18 @@ else
 				echo 'usage: timer -wc example-name input output'
 			fi
 			;;
-		restart) stop-all;start-all.sh
+		restart) sbin/stop-all.sh;sbin/start-all.sh
 			;;
 		cp) if [ $# -eq 2 ]; then
 				sudo netstat -atnp | grep $2
 			else
 				sudo netstat -atnp
 			fi
+			;;
+		fo) bin/hadoop namenode -format
 	esac
 fi
 
 ENDTIME=$(date +%s)
-echo ''
 echo ''
 echo "It took $[$ENDTIME - $STARTTIME] seconds to complete this task..."
