@@ -1,0 +1,7 @@
+2014-04-16 09:26:49,903 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-16 09:26:50,210 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2014-04-16 09:26:50,324 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2014-04-16 09:26:50,333 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@1dea6b4a
+2014-04-16 09:26:50,415 INFO org.apache.hadoop.mapred.Task: Task:attempt_201404160924_0001_m_000002_0 is done. And is in the process of commiting
+2014-04-16 09:26:53,317 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201404160924_0001_m_000002_0' done.
+2014-04-16 09:26:53,334 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1

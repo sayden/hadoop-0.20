@@ -1,0 +1,303 @@
+2014-04-16 09:19:41,683 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = asusnotebook/127.0.0.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.205.0
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-security-205 -r 1179940; compiled by 'hortonfo' on Fri Oct  7 06:26:14 UTC 2011
+************************************************************/
+2014-04-16 09:19:41,875 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-04-16 09:19:41,933 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-04-16 09:19:41,933 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-04-16 09:19:41,934 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: TaskTracker metrics system started
+2014-04-16 09:19:42,023 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-04-16 09:19:42,028 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2014-04-16 09:19:42,264 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-16 09:19:42,338 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-04-16 09:19:42,367 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2014-04-16 09:19:42,372 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as MaC
+2014-04-16 09:19:42,374 INFO org.apache.hadoop.mapred.TaskTracker: Good mapred local directories are: /var/hadoop/hdfs/mapred/local
+2014-04-16 09:19:42,384 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-16 09:19:42,394 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-04-16 09:19:42,395 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source TaskTrackerMetrics registered.
+2014-04-16 09:19:42,415 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort47737 registered.
+2014-04-16 09:19:42,415 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort47737 registered.
+2014-04-16 09:19:42,417 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-04-16 09:19:42,419 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-04-16 09:19:42,421 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 47737: starting
+2014-04-16 09:19:42,421 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 47737: starting
+2014-04-16 09:19:42,421 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 47737: starting
+2014-04-16 09:19:42,422 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: asusnotebook/127.0.0.1:47737
+2014-04-16 09:19:42,422 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_asusnotebook:asusnotebook/127.0.0.1:47737
+2014-04-16 09:19:42,427 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 47737: starting
+2014-04-16 09:19:42,427 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 47737: starting
+2014-04-16 09:20:13,341 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at asusnotebook/127.0.0.1
+************************************************************/
+2014-04-16 09:22:41,249 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = asusnotebook/127.0.0.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.205.0
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-security-205 -r 1179940; compiled by 'hortonfo' on Fri Oct  7 06:26:14 UTC 2011
+************************************************************/
+2014-04-16 09:22:41,389 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-04-16 09:22:41,438 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-04-16 09:22:41,438 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-04-16 09:22:41,439 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: TaskTracker metrics system started
+2014-04-16 09:22:41,514 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-04-16 09:22:41,517 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2014-04-16 09:22:41,710 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-16 09:22:41,835 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-04-16 09:22:41,860 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2014-04-16 09:22:41,864 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as MaC
+2014-04-16 09:22:41,866 INFO org.apache.hadoop.mapred.TaskTracker: Good mapred local directories are: /var/hadoop/hdfs/mapred/local
+2014-04-16 09:22:41,892 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-16 09:22:41,899 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-04-16 09:22:41,899 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source TaskTrackerMetrics registered.
+2014-04-16 09:22:41,911 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-04-16 09:22:41,913 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort33061 registered.
+2014-04-16 09:22:41,914 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort33061 registered.
+2014-04-16 09:22:41,915 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-04-16 09:22:41,917 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 33061: starting
+2014-04-16 09:22:41,917 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 33061: starting
+2014-04-16 09:22:41,917 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 33061: starting
+2014-04-16 09:22:41,917 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 33061: starting
+2014-04-16 09:22:41,918 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 33061: starting
+2014-04-16 09:22:41,918 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: asusnotebook/127.0.0.1:33061
+2014-04-16 09:22:41,918 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_asusnotebook:asusnotebook/127.0.0.1:33061
+2014-04-16 09:24:29,686 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.io.IOException: Call to asusnotebook/127.0.0.1:54311 failed on local exception: java.io.IOException: Conexión reinicializada por la máquina remota
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1103)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1071)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:225)
+	at org.apache.hadoop.mapred.$Proxy5.getProtocolVersion(Unknown Source)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:396)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:370)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:429)
+	at org.apache.hadoop.ipc.RPC.waitForProxy(RPC.java:331)
+	at org.apache.hadoop.ipc.RPC.waitForProxy(RPC.java:296)
+	at org.apache.hadoop.mapred.TaskTracker$3.run(TaskTracker.java:794)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1059)
+	at org.apache.hadoop.mapred.TaskTracker.initialize(TaskTracker.java:790)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:1428)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3673)
+Caused by: java.io.IOException: Conexión reinicializada por la máquina remota
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:342)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:800)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:745)
+
+2014-04-16 09:24:29,688 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at asusnotebook/127.0.0.1
+************************************************************/
+2014-04-16 09:24:45,078 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = asusnotebook/127.0.0.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.205.0
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-security-205 -r 1179940; compiled by 'hortonfo' on Fri Oct  7 06:26:14 UTC 2011
+************************************************************/
+2014-04-16 09:24:45,220 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-04-16 09:24:45,269 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-04-16 09:24:45,270 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-04-16 09:24:45,270 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: TaskTracker metrics system started
+2014-04-16 09:24:45,345 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-04-16 09:24:45,349 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2014-04-16 09:24:50,043 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-16 09:24:50,090 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-04-16 09:24:50,109 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2014-04-16 09:24:50,113 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as MaC
+2014-04-16 09:24:50,114 INFO org.apache.hadoop.mapred.TaskTracker: Good mapred local directories are: /var/hadoop/hdfs/mapred/local
+2014-04-16 09:24:50,122 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-16 09:24:50,130 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-04-16 09:24:50,131 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source TaskTrackerMetrics registered.
+2014-04-16 09:24:50,146 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-04-16 09:24:50,147 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort56005 registered.
+2014-04-16 09:24:50,148 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort56005 registered.
+2014-04-16 09:24:50,149 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-04-16 09:24:50,150 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 56005: starting
+2014-04-16 09:24:50,150 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 56005: starting
+2014-04-16 09:24:50,151 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 56005: starting
+2014-04-16 09:24:50,151 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 56005: starting
+2014-04-16 09:24:50,151 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: asusnotebook/127.0.0.1:56005
+2014-04-16 09:24:50,151 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 56005: starting
+2014-04-16 09:24:50,151 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_asusnotebook:asusnotebook/127.0.0.1:56005
+2014-04-16 09:25:20,821 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_asusnotebook:asusnotebook/127.0.0.1:56005
+2014-04-16 09:25:20,842 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2014-04-16 09:25:20,875 INFO org.apache.hadoop.mapred.TaskTracker:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@70ce4360
+2014-04-16 09:25:20,877 WARN org.apache.hadoop.mapred.TaskTracker: TaskTracker's totalMemoryAllottedForTasks is -1. TaskMemoryManager is disabled.
+2014-04-16 09:25:20,879 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2014-04-16 09:25:20,882 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ShuffleServerMetrics registered.
+2014-04-16 09:25:20,884 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50060
+2014-04-16 09:25:20,884 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50060 webServer.getConnectors()[0].getLocalPort() returned 50060
+2014-04-16 09:25:20,884 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50060
+2014-04-16 09:25:20,884 INFO org.mortbay.log: jetty-6.1.26
+2014-04-16 09:25:21,187 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50060
+2014-04-16 09:25:21,187 INFO org.apache.hadoop.mapred.TaskTracker: FILE_CACHE_SIZE for mapOutputServlet set to : 2000
+2014-04-16 09:26:48,468 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201404160924_0001_m_000002_0 task's state:UNASSIGNED
+2014-04-16 09:26:48,470 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201404160924_0001_m_000002_0 which needs 1 slots
+2014-04-16 09:26:48,470 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201404160924_0001_m_000002_0 which needs 1 slots
+2014-04-16 09:26:48,841 INFO org.apache.hadoop.mapred.JobLocalizer: Initializing user MaC on this TT.
+2014-04-16 09:26:49,048 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201404160924_0001_m_600723009
+2014-04-16 09:26:49,048 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201404160924_0001_m_600723009 spawned.
+2014-04-16 09:26:49,051 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /var/hadoop/hdfs/mapred/local/ttprivate/taskTracker/MaC/jobcache/job_201404160924_0001/attempt_201404160924_0001_m_000002_0/taskjvm.sh
+2014-04-16 09:26:49,761 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201404160924_0001_m_600723009 given task: attempt_201404160924_0001_m_000002_0
+2014-04-16 09:26:53,314 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_m_000002_0 0.0% setup
+2014-04-16 09:26:53,316 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201404160924_0001_m_000002_0 is done.
+2014-04-16 09:26:53,316 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201404160924_0001_m_000002_0  was -1
+2014-04-16 09:26:53,317 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2014-04-16 09:26:53,542 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201404160924_0001_m_600723009 exited with exit code 0. Number of tasks it ran: 1
+2014-04-16 09:26:54,485 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201404160924_0001_m_000000_0 task's state:UNASSIGNED
+2014-04-16 09:26:54,486 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201404160924_0001_m_000000_0 which needs 1 slots
+2014-04-16 09:26:54,486 INFO org.apache.hadoop.mapred.TaskTracker: Received KillTaskAction for task: attempt_201404160924_0001_m_000002_0
+2014-04-16 09:26:54,486 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201404160924_0001_m_000000_0 which needs 1 slots
+2014-04-16 09:26:54,486 INFO org.apache.hadoop.mapred.TaskTracker: About to purge task: attempt_201404160924_0001_m_000002_0
+2014-04-16 09:26:54,486 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201404160924_0001_m_000002_0 not found in cache
+2014-04-16 09:26:54,495 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201404160924_0001_m_1270121761
+2014-04-16 09:26:54,495 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201404160924_0001_m_1270121761 spawned.
+2014-04-16 09:26:54,497 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /var/hadoop/hdfs/mapred/local/ttprivate/taskTracker/MaC/jobcache/job_201404160924_0001/attempt_201404160924_0001_m_000000_0/taskjvm.sh
+2014-04-16 09:26:55,059 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201404160924_0001_m_1270121761 given task: attempt_201404160924_0001_m_000000_0
+2014-04-16 09:26:58,587 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_m_000000_0 1.0% 
+2014-04-16 09:26:58,589 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201404160924_0001_m_000000_0 is done.
+2014-04-16 09:26:58,590 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201404160924_0001_m_000000_0  was 740514
+2014-04-16 09:26:58,591 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2014-04-16 09:26:58,870 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201404160924_0001_m_1270121761 exited with exit code 0. Number of tasks it ran: 1
+2014-04-16 09:27:00,509 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201404160924_0001_r_000000_0 task's state:UNASSIGNED
+2014-04-16 09:27:00,509 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201404160924_0001_r_000000_0 which needs 1 slots
+2014-04-16 09:27:00,509 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201404160924_0001_r_000000_0 which needs 1 slots
+2014-04-16 09:27:00,521 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201404160924_0001_r_600723009
+2014-04-16 09:27:00,521 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201404160924_0001_r_600723009 spawned.
+2014-04-16 09:27:00,533 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /var/hadoop/hdfs/mapred/local/ttprivate/taskTracker/MaC/jobcache/job_201404160924_0001/attempt_201404160924_0001_r_000000_0/taskjvm.sh
+2014-04-16 09:27:01,145 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201404160924_0001_r_600723009 given task: attempt_201404160924_0001_r_000000_0
+2014-04-16 09:27:07,085 INFO org.apache.hadoop.mapred.TaskTracker.clienttrace: src: 127.0.0.1:50060, dest: 127.0.0.1:56455, bytes: 740514, op: MAPRED_SHUFFLE, cliID: attempt_201404160924_0001_m_000000_0, duration: 66466343
+2014-04-16 09:27:07,697 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_r_000000_0 0.33333334% reduce > copy (1 of 1 at 0,12 MB/s)
+2014-04-16 09:27:07,814 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_r_000000_0 0.33333334% reduce > copy (1 of 1 at 0,12 MB/s)
+2014-04-16 09:27:07,944 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_r_000000_0 0.33333334% reduce > copy (1 of 1 at 0,12 MB/s)
+2014-04-16 09:27:08,458 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201404160924_0001_r_000000_0 is in commit-pending, task state:COMMIT_PENDING
+2014-04-16 09:27:08,459 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_r_000000_0 0.33333334% reduce > copy (1 of 1 at 0,12 MB/s)
+2014-04-16 09:27:09,522 INFO org.apache.hadoop.mapred.TaskTracker: Received commit task action for attempt_201404160924_0001_r_000000_0
+2014-04-16 09:27:10,760 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_r_000000_0 1.0% reduce > reduce
+2014-04-16 09:27:10,762 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_r_000000_0 1.0% reduce > reduce
+2014-04-16 09:27:10,763 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201404160924_0001_r_000000_0 is done.
+2014-04-16 09:27:10,764 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201404160924_0001_r_000000_0  was -1
+2014-04-16 09:27:10,765 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2014-04-16 09:27:10,932 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201404160924_0001_r_600723009 exited with exit code 0. Number of tasks it ran: 1
+2014-04-16 09:27:12,532 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201404160924_0001_m_000001_0 task's state:UNASSIGNED
+2014-04-16 09:27:12,532 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201404160924_0001_m_000001_0 which needs 1 slots
+2014-04-16 09:27:12,532 INFO org.apache.hadoop.mapred.TaskTracker: Received KillTaskAction for task: attempt_201404160924_0001_r_000000_0
+2014-04-16 09:27:12,532 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201404160924_0001_m_000001_0 which needs 1 slots
+2014-04-16 09:27:12,532 INFO org.apache.hadoop.mapred.TaskTracker: About to purge task: attempt_201404160924_0001_r_000000_0
+2014-04-16 09:27:12,546 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201404160924_0001_m_616717834
+2014-04-16 09:27:12,546 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201404160924_0001_m_616717834 spawned.
+2014-04-16 09:27:12,549 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /var/hadoop/hdfs/mapred/local/ttprivate/taskTracker/MaC/jobcache/job_201404160924_0001/attempt_201404160924_0001_m_000001_0/taskjvm.sh
+2014-04-16 09:27:13,121 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201404160924_0001_m_616717834 given task: attempt_201404160924_0001_m_000001_0
+2014-04-16 09:27:13,730 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_m_000001_0 0.0% 
+2014-04-16 09:27:16,639 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201404160924_0001_m_000001_0 0.0% cleanup
+2014-04-16 09:27:16,640 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201404160924_0001_m_000001_0 is done.
+2014-04-16 09:27:16,640 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201404160924_0001_m_000001_0  was -1
+2014-04-16 09:27:16,641 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2014-04-16 09:27:16,832 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201404160924_0001_m_616717834 exited with exit code 0. Number of tasks it ran: 1
+2014-04-16 09:27:18,581 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201404160924_0001
+2014-04-16 09:27:18,581 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201404160924_0001_m_000001_0 not found in cache
+2014-04-16 09:27:18,582 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201404160924_0001 for user-log deletion with retainTimeStamp:1397719638582
+2014-04-16 09:27:51,759 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.io.IOException: Call to asusnotebook/127.0.0.1:54311 failed on local exception: java.io.IOException: Conexión reinicializada por la máquina remota
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1103)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1071)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:225)
+	at org.apache.hadoop.mapred.$Proxy5.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1788)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1584)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2434)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3675)
+Caused by: java.io.IOException: Conexión reinicializada por la máquina remota
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:342)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:800)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:745)
+
+2014-04-16 09:27:51,759 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'asusnotebook' with reponseId '49
+2014-04-16 09:27:52,028 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at asusnotebook/127.0.0.1
+************************************************************/
+2014-04-16 10:01:13,348 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = asusnotebook/127.0.0.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.205.0
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-security-205 -r 1179940; compiled by 'hortonfo' on Fri Oct  7 06:26:14 UTC 2011
+************************************************************/
+2014-04-16 10:01:13,512 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-04-16 10:01:13,563 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-04-16 10:01:13,564 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-04-16 10:01:13,564 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: TaskTracker metrics system started
+2014-04-16 10:01:13,696 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-04-16 10:01:13,701 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2014-04-16 10:01:13,984 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-16 10:01:14,056 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-04-16 10:01:14,082 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2014-04-16 10:01:14,086 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as MaC
+2014-04-16 10:01:14,088 INFO org.apache.hadoop.mapred.TaskTracker: Good mapred local directories are: /var/hadoop/hdfs/mapred/local
+2014-04-16 10:01:14,116 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-16 10:01:14,136 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-04-16 10:01:14,137 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source TaskTrackerMetrics registered.
+2014-04-16 10:01:14,148 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-04-16 10:01:14,152 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort44942 registered.
+2014-04-16 10:01:14,152 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort44942 registered.
+2014-04-16 10:01:14,154 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-04-16 10:01:14,155 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 44942: starting
+2014-04-16 10:01:14,156 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 44942: starting
+2014-04-16 10:01:14,156 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 44942: starting
+2014-04-16 10:01:14,157 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 44942: starting
+2014-04-16 10:01:14,157 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: asusnotebook/127.0.0.1:44942
+2014-04-16 10:01:14,157 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_asusnotebook:asusnotebook/127.0.0.1:44942
+2014-04-16 10:01:14,158 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 44942: starting
+2014-04-16 10:01:43,436 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_asusnotebook:asusnotebook/127.0.0.1:44942
+2014-04-16 10:01:43,452 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2014-04-16 10:01:43,462 INFO org.apache.hadoop.mapred.TaskTracker:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@3bd93525
+2014-04-16 10:01:43,464 WARN org.apache.hadoop.mapred.TaskTracker: TaskTracker's totalMemoryAllottedForTasks is -1. TaskMemoryManager is disabled.
+2014-04-16 10:01:43,467 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2014-04-16 10:01:43,470 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ShuffleServerMetrics registered.
+2014-04-16 10:01:43,472 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50060
+2014-04-16 10:01:43,472 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50060 webServer.getConnectors()[0].getLocalPort() returned 50060
+2014-04-16 10:01:43,472 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50060
+2014-04-16 10:01:43,472 INFO org.mortbay.log: jetty-6.1.26
+2014-04-16 10:01:43,726 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50060
+2014-04-16 10:01:43,726 INFO org.apache.hadoop.mapred.TaskTracker: FILE_CACHE_SIZE for mapOutputServlet set to : 2000
+2014-04-16 10:01:43,733 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201404160924_0001 for user-log deletion with retainTimeStamp:1397721703466
+2014-04-16 10:01:43,734 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201404160924_0001 for user-log deletion with retainTimeStamp:1397721703466
+2014-04-16 10:14:39,689 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at asusnotebook/127.0.0.1
+************************************************************/

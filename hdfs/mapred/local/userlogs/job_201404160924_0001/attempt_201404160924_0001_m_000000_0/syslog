@@ -1,0 +1,18 @@
+2014-04-16 09:26:55,181 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-16 09:26:55,482 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2014-04-16 09:26:55,598 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2014-04-16 09:26:55,609 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@2bae0a12
+2014-04-16 09:26:55,739 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2014-04-16 09:26:55,846 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2014-04-16 09:26:55,846 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2014-04-16 09:26:56,411 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: record full = true
+2014-04-16 09:26:56,411 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 2546054; bufvoid = 99614720
+2014-04-16 09:26:56,411 INFO org.apache.hadoop.mapred.MapTask: kvstart = 0; kvend = 262144; length = 327680
+2014-04-16 09:26:56,418 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-04-16 09:26:56,867 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-04-16 09:26:56,877 INFO org.apache.hadoop.mapred.MapTask: Finished spill 1
+2014-04-16 09:26:56,883 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-04-16 09:26:56,885 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 2 segments left of total size: 740512 bytes
+2014-04-16 09:26:57,056 INFO org.apache.hadoop.mapred.Task: Task:attempt_201404160924_0001_m_000000_0 is done. And is in the process of commiting
+2014-04-16 09:26:58,591 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201404160924_0001_m_000000_0' done.
+2014-04-16 09:26:58,610 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
