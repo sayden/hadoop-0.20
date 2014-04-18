@@ -17,8 +17,3 @@ exec {'create-hdfs-dir':
 	command => '/usr/bin/mkdir /var/hadooptest/hdfs',
 	require => Exec['clone-repository']
 }
-
-# Update /etc/hosts
-exec {'update-hosts':
-	command => '/usr/bin/echo "192.168.1.107	asusnotebook" >> /etc/hosts'
-}
